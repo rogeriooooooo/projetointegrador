@@ -1,0 +1,29 @@
+:root{
+    background-color: #7d8699;
+    font-family: 'Segoe UI', Helvetica, Arials, sans-serif;
+}
+
+.red-font{
+    color: #c40001;
+}
+
+.font-color-default{
+    color: #000000;
+}
+
+.busi-link{
+    text-decoration: none;
+    color:#000000;
+    font-weight: 500;
+}
+
+.botao-login-bg{
+    background-color: #C40001;
+    cursor: pointer;
+}
+
+.botao-menu{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}

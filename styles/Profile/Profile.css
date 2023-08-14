@@ -1,0 +1,102 @@
+header.menu{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: auto !important;
+}
+
+.container{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.container :not(:first-child){
+    margin-top: 15px;
+}
+
+.photo,
+.descricao,
+.counter__colegas,
+.counter__gestores{
+    border: 1px solid #7d8699;
+    width: 100%;
+    height: 300px;
+    background-color: #FFFF;
+    border-radius:10px;
+}
+
+.photo{
+    height: 500px;
+    border-top-right-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+}
+
+.photo__avatar > img{
+    border-radius: 15px;
+}
+
+.photo__tools > div > i {
+    margin-right: 15px
+}
+
+
+.photo__name > h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+/* Borda vermelha para alterar a aba do perfil. 
+.photo > * {
+    border: 1px solid red;
+}
+*/
+
+.descricao{
+    height: 800px;
+    max-width: 520px;
+    padding-top: 0 15px;
+}
+
+.counter__colegas,
+.counter__gestores{
+    height: 350px;
+    width: 340px;
+    padding-top: 0 15px;
+}
+
+header > nav {
+    color: white;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav > #title > h1{
+    font-size: 40px;
+}
+
+header > nav > #menu > h1{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.colegas1,
+.gestores1{
+    text-align: center;
+}
+
+.atribuicao{
+    text-align: center;
+}
