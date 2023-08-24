@@ -40,3 +40,43 @@ body {
  .rating input:checked ~ label:before, .rating:not(:checked) > label:hover:before, .rating:not(:checked) > label:hover ~ label:before {
      color: #f9df4a;
 }
+
+.campos {
+     padding-top:24px;
+     text-align: center;
+}
+.campo__titulo {
+     font-weight: 500;
+     font-size: larger;
+}
+
+.comentario {
+     text-align: center;
+     margin-inline: auto;
+     padding-block: 16px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 24px
+}
+.comentario textarea{
+     width: 50%;
+     padding: 8px;
+     max-width: 800px;
+     resize: vertical;
+     border-radius: 8px;
+}
+.comentario a{
+     width: 100%;
+     height: 100%;
+}
+.comentario button {
+     width: 50%;
+     padding: 8px;
+     max-width: 800px;
+     border-radius: 8px;
+     font-weight: 500;
+     font-size: larger;
+     cursor: pointer;
+     border:black solid 1px;  
+}
