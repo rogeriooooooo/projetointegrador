@@ -6,6 +6,10 @@ header.menu{
     left: 0;
     cursor: auto !important;
 }
+header.menu a {
+    text-decoration: none;
+    color: white;
+}
 
 .container{
     margin-top: 100px;
